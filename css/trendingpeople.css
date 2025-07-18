@@ -1,0 +1,245 @@
+* {
+
+
+    font-family: "Source Sans 3", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+
+
+}
+
+body {
+    background-color: #111;
+    color: #fff;
+    font-family: sans-serif;
+    width: 1300px;
+    margin: auto;
+}
+
+.mood {
+    border: 2px solid #cbba9a;
+    padding: 1rem;
+    display: flex;
+    position: absolute;
+    left: 100%;
+    border-radius: 10px;
+}
+
+#light,
+#black {
+    background-color: transparent;
+    border: none;
+}
+
+header {
+    margin-top: 2rem;
+}
+
+header a {
+    font-weight: bold;
+    color: #F5C518;
+    margin-right: 1rem;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.logo {
+    width: 5%;
+    margin-right: 8rem;
+
+}
+
+.logo img {
+    width: 100%;
+}
+
+.header li {
+    list-style: none;
+    width: 15%;
+    font-size: 1.5rem;
+}
+
+header ul li {
+    width: 100% !important;
+}
+
+header .watch {
+    color: #81a9df;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+.overlay-header {
+    position: absolute;
+    height: 70vh;
+    background-color: #6d869bd4;
+    width: 100%;
+    z-index: 555;
+    top: 10%;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    width: 75%;
+    position: relative;
+    top: 20%;
+    /* transform: translateY(-50%); */
+    left: 10%;
+}
+
+.search-input {
+    padding: 0.5em;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    margin-right: 0.5em;
+    width: 80%;
+    margin-left: 1rem;
+}
+
+.search-button {
+    background-color: #fff;
+    color: #111;
+    border: none;
+    padding: 0.5em;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 15%;
+}
+
+#icon-search {
+    cursor: pointer;
+}
+
+.nav {
+    display: flex;
+    width: 20%;
+
+}
+
+.nav .nav-item {
+    margin-right: 1em;
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+}
+
+.trending-main {
+    margin-top: 4rem;
+}
+
+.trending {
+    margin-top: 3rem;
+    /* padding-bottom: 1rem; */
+    /* background-image: url("/img/Title-Poster-of-the-Movie-Bihaan.jpg"); */
+    background-color: #292929;
+    border-radius: 10px
+}
+
+h1 {
+    border-left: 6px solid yellow;
+    padding-left: 1rem;
+}
+
+.card .overlay {
+    position: absolute;
+    background-color: #f5f5f59c;
+    width: 100%;
+    inset: 0;
+    z-index: 1;
+    display: none;
+}
+
+.card .overlay .svg {
+    color: #94b7f5;
+    position: absolute;
+    top: 35%;
+    left: 25%;
+    font-size: 4rem;
+}
+
+
+#cards-trending {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 1.5rem;
+
+}
+
+.card-content {
+    width: 25%;
+    padding: 1rem;
+}
+
+.card {
+    border-radius: 15px;
+    border: 4px solid #f5c5c0;
+    overflow: hidden;
+    animation: card 3s ease-in-out infinite;
+
+}
+
+@keyframes card {
+
+    from {
+        border: 4px solid #f5c5c0;
+    }
+
+    to {
+        border: 4px solid #db8616;
+    }
+
+}
+
+
+
+.movie-title {
+    padding-left: 0.5rem;
+    background-color: #292929;
+    padding-top: 1rem;
+}
+
+.movie-title a {
+    text-decoration: none;
+    font-weight: 400;
+    color: white;
+    margin-bottom: 0.2rem;
+    font-size: 1.5rem;
+
+}
+
+.movie-title a:hover {
+    color: #94b7f5;
+}
+
+
+h6 {
+    color: white;
+    padding-top: 0.5rem;
+}
+
+h6::before {
+    content: icon;
+
+}
+
+#cards-trending p {
+    border: 3px solid #006f80;
+    border-radius: 50%;
+    width: 21%;
+    font-size: 1rem;
+    padding: 7px;
+    position: absolute;
+    top: 74%;
+    color: #f7f7f7;
+    background-color: black;
+    left: 79%;
+    text-align: center;
+}

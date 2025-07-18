@@ -1,0 +1,149 @@
+/* .dark-mood {
+    background-color: #161616 !important;
+    color: white;
+} */
+
+.card {
+    border: 2px solid white;
+}
+* {
+
+
+    font-family: "Source Sans 3", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+
+
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1b1b1b;
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    text-align: center;
+    margin-top: 2rem;
+
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+.card {
+    background-color: #1b1b1b;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(255, 255, 255, 0.1);
+    width: 450px;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group p {
+    font-size: 13px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+
+}
+
+input[type="email"],
+input[type="password"],
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #004585;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+input[type="email"]:focus,
+input[type="password"]:focus {
+    outline: none;
+    border-color: #F7CA00;
+}
+
+.btn-reg {
+    background-color: #F7CA00;
+    color: rgb(0, 0, 0);
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    margin-bottom: 1rem;
+}
+
+.btn:hover {
+    background-color: #cfaa06;
+}
+
+
+.have-account {
+    text-align: center;
+
+}
+
+.have-account p {
+    display: inline-block;
+    line-height: 1;
+    font-size: 12px;
+    color: #767676;
+
+}
+
+.have-account button {
+    background-color: #4CAF50;
+    color: rgb(253, 253, 253);
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer {
+    width: 100%;
+    color: #777;
+    margin-top: 3rem;
+    /* height: 48vh; */
+    background-color: #1b1b1b;
+    /* padding: 50rem; */
+}
+
+.footer {
+
+
+    text-align: center;
+    padding: 10px;
+    font-size: 12px;
+
+    padding-top: 2rem;
+}
+
+a {
+    color: #0a0eff;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #f35a01;
+}
