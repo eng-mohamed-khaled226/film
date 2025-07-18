@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IMDb Sign In</title>
+    <link rel="shortcut icon" href="./img/logo.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="./css/login.css">
+    <style>
+        #btn-dark {
+            font-size: 2rem;
+            cursor: pointer;
+            margin-top: 2rem;
+            border: none;
+            background-color: transparent;
+            position: relative;
+            left: 95%;
+        }
+    </style>
+</head>
+
+<body>
+    <section id="main">
+
+
+        <button id="btn-dark"></button>
+        <div class="logo"><a href=""><img src="./img/logo.png" alt=""></a></div>
+        <div class="container">
+            <div class="card">
+                <h1>Sign in</h1>
+                <form>
+                    <div class="form-group">
+                        <label for="email">Email or mobile phone number</label>
+                        <input type="email" id="email" name="email">
+                    </div>
+                    <div class="form-group">
+                        <label for="password">Password</label>
+                        <input type="password" id="password" name="password">
+                    </div>
+                    <div class="forgot-password">
+                        <a href="#">Forgot password?</a>
+                    </div>
+                    <p id="error">Error Email or Password</p>
+                    <button type="button" class="btn btn-reg">Sign in</button>
+                    <div class="keep-signed-in">
+                        <input type="checkbox" id="keep-signed-in" name="keep-signed-in">
+                        <label for="keep-signed-in">Keep me signed in.</label>
+                        <a href="#" class="details">Details</a>
+                    </div>
+                    <div class="create-account">
+                        <p>New to IMDb?</p>
+                        <a href="./signup.html">Create your IMDb account</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <footer id="footer">
+            <div class="footer">
+
+                <a href="#">Help</a> | <a href="#">Conditions of Use</a> | <a href="#">Privacy Notice</a>
+                <p>© 1996-2024, Amazon.com, Inc. or its affiliates</p>
+            </div>
+        </footer>
+    </section>
+
+    <script src="./js/login.js"></script>
+</body>
+
+</html>

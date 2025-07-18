@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IMDb Sign Up</title>
+    <link rel="shortcut icon" href="./img/logo.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="./css/signup.css">
+
+</head>
+<style>
+    #btn-dark {
+        font-size: 2rem;
+        cursor: pointer;
+        margin-top: 2rem;
+        border: none;
+        background-color: transparent;
+        position: relative;
+        left: 95%;
+    }
+</style>
+
+<body>
+    <section id="main">
+        <button id="btn-dark"></button>
+        <div class="logo"><a href=""><img src="./img/logo.png" alt=""></a></div>
+
+        <div class="container">
+            <div class="card">
+                <h1>Sign Up</h1>
+                <form>
+                    <div class="form-group" id="div1">
+                        <label for="name">Enter Your Name</label>
+                        <input type="text" id="name" name="name">
+                        <p class="display-none" id="name-error"></p>
+                    </div>
+                    <div class="form-group" id="div2">
+                        <label for="email">Email or mobile phone number</label>
+                        <input type="email" id="email" name="email">
+                        <p class="display-none" id="email-error"></p>
+                    </div>
+                    <div class="form-group" id="div3">
+                        <label for="password">Password</label>
+                        <input type="password" id="password" name="password" placeholder=" at least 8 characters.">
+                        <p class="display-none" id="password-error"></p>
+                    </div>
+                    <div class="form-group" id="div4">
+                        <label for="password">Re-enter Password</label>
+                        <input type="password" id="cpassword" name="password">
+                        <p class="display-none" id="confirm-password-error"></p>
+                    </div>
+
+                    <button type="button" class="btn-reg">Sign Up</button>
+
+                    <div class="have-account">
+                        <p>Already have an account?</p>
+                        <a href="./login.html">sign in</a>
+                    </div>
+                </form>
+             
+            </div>
+        </div>
+        <footer id="footer">
+            <div class="footer">
+
+                <a href="#">Help</a> | <a href="#">Conditions of Use</a> | <a href="#">Privacy Notice</a>
+                <p>© 1996-2024, Amazon.com, Inc. or its affiliates</p>
+            </div>
+        </footer>
+    </section>
+    <script src="./js/signup.js"></script>
+</body>
+
+</html>
